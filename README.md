@@ -27,11 +27,18 @@ Or install it yourself as:
 
 ## Usage
 
+With the webservice server running with this gem, given that you have entered
+your datapoint key and resolution into the `config.yml`, you should be able to
+get data back using something like this
+
     $ curl \
         -X POST \
         -d '{"id": "3063"}' \
         -H "Content-Type: application/json" \
         http://localhost:9294/met-office
+
+For use with the CitySDK, you will need to set the webservice URL for your
+Met Office layer as `http://<hostname>/met-office`.
 
 
 ## Contributing
