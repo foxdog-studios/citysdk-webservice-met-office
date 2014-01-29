@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ curl \
+        -X POST \
+        -d '{"id": "3063"}' \
+        -H "Content-Type: application/json" \
+        http://localhost:9294/met-office
+
 
 ## Contributing
 
