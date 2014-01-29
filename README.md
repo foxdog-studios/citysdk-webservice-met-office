@@ -4,6 +4,13 @@ citysdk-webservice-met-office
 CitySDK webservice for met office data. A route for the CitySDK webservice
 server. See https://github.com/foxdog-studios/citysdk-webservice-server
 
+You will need to add to the `config.yaml` in the webservice server the following
+key values
+
+    datapointkey: your-datapoint-key
+    resolution: 3hourly
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
